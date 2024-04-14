@@ -1,0 +1,137 @@
+
+*{
+
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+}
+body{
+
+	/* height: 100vh; */
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	background: linear-gradient(25deg, #8600b3 50%, #cc33ff 50%);
+
+}
+.searchbox{
+    flex-wrap: wrap;
+
+}
+.box > i {
+	font-size: 20px;
+	color: #777;
+}
+
+.box > input{
+	flex: 1;
+	height: 20px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left: 10px;
+
+
+}
+#imgbtn{
+    width: 1rem;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background-color: #f9fbfc;
+}
+.dark-mode {
+    background: black;
+    color: white;
+  }
+  #dark-mode{
+    position: absolute;
+     top: 0px;
+     right: 1px;
+  }
+.container {
+    margin-top: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+.box{
+
+	width:auto;
+	height: 50px;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+
+}
+
+
+ button {
+    padding: 10px 20px;
+     /* background-color: #007bff; */
+    color: #fff; 
+    border: inset; 
+    cursor: pointer;
+} 
+
+ Button:hover {
+    background-color: #0056b3; 
+} 
+.heart{
+    font-size: 24px;
+    left: 11rem;
+    justify-items: flex-end;
+}
+.heart:hover {
+   
+    color: red;
+}
+.red-heart {
+    
+    color: red;
+}
+
+.comment-form{
+    font-size: 0.5rem;
+    width: 100%;
+    border-top: 4px solid #0a21f120;
+    padding: 10px;
+    margin-top: 10px;
+    right: 11rem;
+    border-top: 1px solid #2711ec20;
+
+}
+ 
+#recipeList {
+    margin-top: 0;
+
+    margin-top: 20px;
+    text-align: left;
+}
+
+.recipe-item {
+    /* border-bottom: 1px solid #ddd; */
+    padding: 20px 0;
+    text-align: center; 
+    margin-top: 0;
+
+}
+
+.recipe-image {
+    display: block; 
+    margin: 0 auto 10px;
+}
+
+.recipe-link {
+    display: block; 
+    margin-top: 10px; 
+}
+
